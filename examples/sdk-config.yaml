@@ -11,6 +11,9 @@ file_format: "0.1"
 # Configure if the SDK is disabled or not.
 disabled: false
 
+# Configure the log level used by the SDK logger
+log_level: info
+
 # Configure resource for all signals.
 resource:
   # Configure resource attributes.
