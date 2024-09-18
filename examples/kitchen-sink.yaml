@@ -15,7 +15,7 @@ file_format: "0.1"
 # Environment variable: OTEL_SDK_DISABLED
 disabled: false
 
-# Configure the log level used by the SDK logger
+# Configure the log level of the internal logger used by the SDK
 #
 # Environment variable: OTEL_LOG_LEVEL
 log_level: info
