@@ -12,8 +12,6 @@ file_format: "0.3"
 disabled: false
 
 # Configure the log level of the internal logger used by the SDK
-#
-# Environment variable: OTEL_LOG_LEVEL
 log_level: info
 
 # Configure general attribute limits. See also tracer_provider.limits, logger_provider.limits.
