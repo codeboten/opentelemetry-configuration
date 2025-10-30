@@ -1,4 +1,6 @@
-file:///var/log/logs.jsonl
-file:///var/log/metrics.jsonl
-file:///var/log/traces.jsonl
-file:///path/to/file.jsonl
+# exclude otlp_file destinations
+file:///.*.jsonl
+# excluding links to pull requests and issues is done for performance
+'^https://github.com/open-telemetry/opentelemetry-configuration/(issues|pull)/\d+$',
+# exclude localhost, file references from schema-docs.md
+"^http://localhost",
